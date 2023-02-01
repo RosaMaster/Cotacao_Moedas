@@ -1,5 +1,8 @@
 # Cotação de moedas
 import httpx
+from lista import moedas
+
+print(f"{moedas}\n")
 
 base_currency = input("Digite a moeda de base: ").upper()
 currency = input("Digite a moeda desejada: ").upper()
